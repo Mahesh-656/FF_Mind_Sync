@@ -1,6 +1,6 @@
 import { GoogleGenerativeAI } from "@google/generative-ai";
 
-const genAI = new GoogleGenerativeAI("AIzaSyDYFkpm3F7VaiPo1fUc8Rt46MlTQDh4r2Q");
+const genAI = new GoogleGenerativeAI("YOUR_GEMINI_API_KEY");
 
 // Initialize chat model with configuration
 const initializeChat = () => {
